@@ -1,0 +1,145 @@
+.header .score {
+  background: #f4f3f6;
+  border-radius: 4px;
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #191d63;
+  padding: 2px 5px;
+}
+
+.header .title {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.header .close {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.question {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #191d63;
+}
+
+.answer {
+  height: 60px;
+  background: #f4f3f6;
+  border-radius: 8px;
+  position: relative;
+  color: #060710;
+}
+
+.answer-option {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ede8e3;
+  text-align: center;
+  line-height: 34px;
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.answer-label {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.down-ratio {
+  color: #a40021;
+}
+
+.up-ratio {
+  color: #20ba6e;
+}
+
+.selected {
+  background-color: #45c486 !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.selected .down-ratio,
+.selected .up-ratio {
+  color: white !important;
+}
+
+.continue {
+  height: 60px;
+  background: #747475;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+
+.continue:not(:disabled) {
+  background-color: #31cd63 !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.progress {
+  background-color: #ede8e3;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    background: #f4f3f6;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .continue-section {
+    width: 100% !important;
+  }
+
+  .footer {
+    bottom: 1rem;
+  }
+}
+
+.selected .checkicon:before {
+  content: '\2713';
+  visibility: visible;
+  color: #45c486;
+  padding: 0 6px 0 0;
+  font-weight: bold;
+}
+
+.selected .answer-option {
+  background: white;
+}
+
+.selected .checkicon {
+  position: absolute;
+  left: 20px;
+  display: inline-block;
+}

@@ -1,0 +1,20 @@
+.home-page {
+  position: relative;
+  height: 100vh;
+}
+
+.home-page .content {
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  text-align: center;
+  transform: translateY(-50%);
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-page button {
+  background-color: #31cd63;
+  border-color: #31cd63;
+  color: white;
+}

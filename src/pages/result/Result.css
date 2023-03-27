@@ -1,0 +1,32 @@
+.okay {
+  height: 60px;
+  border-radius: 8px;
+  background-color: #31cd63 !important;
+  color: white !important;
+}
+.result-title {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #191d63;
+}
+.result-content {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #060710;
+  background: #f4f3f6;
+  border-radius: 8px;
+}
+.h-60 {
+  height: 60px;
+}
+.result-footer{
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+}
